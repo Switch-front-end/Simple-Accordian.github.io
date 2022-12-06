@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 1px;
+  background-color: lightskyblue;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.active,
+.btn:hover {
+  background-color: rgb(135, 206, 250, 0.8);
+}
+
+.Accordion {
+  width: 100%;
+}
+
+.Accordion .panel {
+  display: none;
+  overflow: hidden;
+}
+
+.panel-show {
+  display: block;
+}
